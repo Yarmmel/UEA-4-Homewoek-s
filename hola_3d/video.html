@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video</title>
+    <script src="https://aframe.io/releases/1.6.0/aframe.min.js"></script>
+</head>
+<body>
+    <script>
+        AFRAME.registerComponent('play-pause', {
+          init: function () {
+            var myVideo = document.querySelector('#edit');
+            var videoControls = documents.querySelector('#videoControls');
+            this.el.addEventListener('click', function () {
+                if (myVideo.paused) {
+                    myVideo.play();
+                    videoControls.setAttribute('src', '#play');
+                } else {
+                    myVideo.pause();
+                    videoControls.setAttribute('src', '#play');
+                }
+            });
+        }
+    });
+      </script>
+    <a-scene background="color:pink">
+        <a-assets>
+            <img id="play" src="assets/boton_play.png">
+            <img id="pause" src="assets/boton_pausa.png">
+            <video id="edit" autoplay loop="true" src="assets/skynani.mp4"></video>
+        </a-assets>
+
+        <a-camera>
+            <a-cursor></a-cursor>
+        </a-camera>
+
+        <a-video src="#edit" position="0 1.5 -2">
+            <a-image id="#videoControls" src="play" position="0 -3 0" scale="0.5 0.5 1" play-pause>
+
+            </a-image>
+        </a-video>
+    </a-scene>
+</body>
+</html>
