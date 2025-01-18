@@ -1,0 +1,11 @@
+Model Information:
+* title:	Nina
+* source:	https://sketchfab.com/3d-models/nina-b3d788633a05423493ba09f0c153c391
+* author:	roachfilmopticals (https://sketchfab.com/roachfilmopticals)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Nina" (https://sketchfab.com/3d-models/nina-b3d788633a05423493ba09f0c153c391) by roachfilmopticals (https://sketchfab.com/roachfilmopticals) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
